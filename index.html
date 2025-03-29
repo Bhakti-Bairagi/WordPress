@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordPress.com Clone</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- 🟣 Navbar -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo1">
+                <img src="wrp-logo.png" alt="WordPress Logo">
+            </div>
+            <div class="logo">WordPress.com</div>
+            <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+            <ul class="nav-links">
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Solutions</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Plans & Pricing</a></li>
+            </ul>
+            <div class="nav-buttons">
+                
+                <button class="login-btn" onclick="openPopup('login-popup')">Log In</button>
+<button class="signup-btn" onclick="openPopup('signup-popup')">Sign Up</button>
+
+                <a href="#" class="btn">Get Started</a>
+            </div>
+            <div class="hamburger">&#9776;</div>
+        </div>
+    </header>
+
+     <!-- 🟣 Hero Section -->
+     <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hassle-free WordPress</h1>
+                <p>Everything you need to build and grow any website<br> in one place.</p>
+                <a href="#" class="btn">Get Started</a>
+            </div>
+            <div class="hero-image">
+                <img src="im.png" alt="Hero Image">
+            </div>
+        </div>
+    </section>
+    
+
+
+   <!--- <section class="hero animate delay-1"><section class="hero">
+        <div class="hero-content">
+            <h1>Hassle-free WordPress</h1>
+            <p>Everything you need to build and grow any website---all in one place.</p>
+            <div class="hero-buttons">
+                <a href="#" class="btn primary-btn">Get Started</a>
+                <a href="#" class="btn secondary-btn">See Plans</a>
+            </div>
+        </div>
+    </section></section>-->
+
+<!-- 🟣 Solutions Section -->
+<section class="solutions animate delay-2"><section class="solutions">
+    <h2>Solutions for every creator</h2>
+    <p class="subheading">No matter your goals, WordPress.com has a solution for you.</p>
+
+    <div class="solution-cards">
+
+        <div class="card">
+            <h3>Start a Blog</h3>
+            <p>Share your ideas and stories with the world.</p>
+            <a href="#">Learn more →</a>
+        </div>
+
+        <div class="card">
+            <h3>Build a Business Website</h3>
+            <p>Showcase your products and services online.</p>
+            <a href="#">Learn more →</a>
+        </div>
+
+        <div class="card">
+            <h3>Create a Portfolio</h3>
+            <p>Display your creative work beautifully.</p>
+            <a href="#">Learn more →</a>
+        </div>
+
+        <div class="card">
+            <h3>Open an Online Store</h3>
+            <p>Sell your products with ease using powerful tools.</p>
+            <a href="#">Learn more →</a>
+        </div>
+
+        <div class="card">
+            <h3>Make a Personal Website</h3>
+            <p>Build your own personal online presence.</p>
+            <a href="#">Learn more →</a>
+        </div>
+
+    </div>
+</section></section>
+<!-- 🟣 Create Your Website Section -->
+<section class="create-website animate delay-1">
+<section class="create-website">
+    <h2>Create your website today</h2>
+    <p>Get started for free and unlock the tools you need to build, grow, and manage your website.</p>
+    <a href="#" class="btn primary-btn">Get Started</a>
+</section></section>
+<!-- 🟣 Testimonials Section -->
+<section class="testimonials animate delay-2"><section class="testimonials">
+    <h2>What our users say</h2>
+
+    <div class="testimonial-cards">
+
+        <div class="testimonial">
+            <p>"WordPress.com made it so easy for me to launch my blog and share my passion with the world."</p>
+            <h4>— Alex, Blogger</h4>
+        </div>
+
+        <div class="testimonial">
+            <p>"I built my business website in just a few hours. It looks professional and functions perfectly."</p>
+            <h4>— Jamie, Entrepreneur</h4>
+        </div>
+
+        <div class="testimonial">
+            <p>"Thanks to WordPress.com, I now have a portfolio that helps me stand out and get more clients."</p>
+            <h4>— Taylor, Designer</h4>
+        </div>
+
+    </div>
+</section></section>
+<!-- 🟣 Pricing Section -->
+<section class="pricing animate delay-3"><section class="pricing">
+    <h2>Choose your plan</h2>
+    <p class="subheading">Flexible plans for any budget and goal.</p>
+
+    <div class="pricing-cards">
+
+        <div class="pricing-card">
+            <h3>Free</h3>
+            <p class="price">$0/month</p>
+            <ul>
+                <li>Basic Features</li>
+                <li>Free Themes</li>
+                <li>Community Support</li>
+            </ul>
+            <a href="#" class="btn">Get Started</a>
+        </div>
+
+        <div class="pricing-card popular">
+            <h3>Pro</h3>
+            <p class="price">$15/month</p>
+            <ul>
+                <li>All Free Features</li>
+                <li>Custom Domain</li>
+                <li>Premium Themes</li>
+                <li>Email Support</li>
+            </ul>
+            <a href="#" class="btn">Get Started</a>
+        </div>
+
+        <div class="pricing-card">
+            <h3>Business</h3>
+            <p class="price">$30/month</p>
+            <ul>
+                <li>All Pro Features</li>
+                <li>Advanced Customization</li>
+                <li>Priority Support</li>
+                <li>Full Analytics</li>
+            </ul>
+            <a href="#" class="btn">Get Started</a>
+        </div>
+
+    </div>
+</section></section>
+
+<!-- 🟣 Footer -->
+<footer>
+    <footer class="animate delay-1"><div class="footer-content">
+        <p>&copy; 2025 YourSiteName. All rights reserved.</p>
+        <ul class="footer-links">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+</footer>
+</footer>
+
+<!-- 🌟 Login Popup -->
+<div id="login-popup" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('login-popup')">&times;</span>
+        <h2>Log In</h2>
+        <input type="text" id="login-username" placeholder="Username or Email">
+        <input type="password" id="login-password" placeholder="Password">
+        <button onclick="login()">Log In</button>
+    </div>
+</div>
+
+<!-- 🌟 Signup Popup -->
+<div id="signup-popup" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('signup-popup')">&times;</span>
+        <h2>Sign Up</h2>
+        <input type="text" id="signup-username" placeholder="Username">
+        <input type="email" id="signup-email" placeholder="Email">
+        <input type="password" id="signup-password" placeholder="Password">
+        <button onclick="signup()">Sign Up</button>
+    </div>
+</div>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
